@@ -1,0 +1,2 @@
+#!/binÂ/bash
+ls -A -1 --group-directories-first | sort -t/ -k2,2 | tr '\n' ',' | sed 's/,$/\n/'
